@@ -1,0 +1,12 @@
+core_cm7.h:1884:26:__NVIC_GetPriorityGrouping	4	static
+core_cm7.h:1896:22:__NVIC_EnableIRQ	16	static
+core_cm7.h:2024:22:__NVIC_SetPriority	16	static
+core_cm7.h:2071:26:NVIC_EncodePriority	40	static
+dshot.c:18:6:dshot_init	24	static
+dshot.c:247:6:dshot_write	16	static
+dshot.c:253:13:dshot_prepare_dmabuffer_all	16	static
+dshot.c:261:17:dshot_choose_type	16	static
+dshot.c:275:13:dshot_prepare_dmabuffer	24	static
+dshot.c:291:17:dshot_prepare_packet	32	static
+dshot.c:313:13:dshot_dma_start	4	static
+dshot.c:322:13:dshot_enable_dma_request	4	static
