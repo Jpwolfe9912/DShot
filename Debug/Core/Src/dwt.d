@@ -1,43 +1,93 @@
-Core/Src/dwt.o: ../Core/Src/dwt.c \
- /Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Core/Inc/board.h \
- /Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h \
- /Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f722xx.h \
- /Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Drivers/CMSIS/Include/core_cm7.h \
- /Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Drivers/CMSIS/Include/cmsis_version.h \
- /Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Drivers/CMSIS/Include/cmsis_compiler.h \
- /Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Drivers/CMSIS/Include/cmsis_gcc.h \
- /Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Drivers/CMSIS/Include/mpu_armv7.h \
- /Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Drivers/CMSIS/Device/ST/STM32F7xx/Include/system_stm32f7xx.h \
- /Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Core/Inc/stm32f7xx_it.h \
- /Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Core/Inc/main.h \
- /Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Core/Inc/dshot.h \
- /Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Core/Inc/rcc.h \
- /Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Core/Inc/dwt.h
+Core/Src/dwt.o: ../Core/Src/dwt.c ../Core/Inc/board.h \
+ ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h \
+ ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f722xx.h \
+ ../Drivers/CMSIS/Include/core_cm7.h \
+ ../Drivers/CMSIS/Include/cmsis_version.h \
+ ../Drivers/CMSIS/Include/cmsis_compiler.h \
+ ../Drivers/CMSIS/Include/cmsis_gcc.h \
+ ../Drivers/CMSIS/Include/mpu_armv7.h \
+ ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/system_stm32f7xx.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
+ ../Core/Inc/stm32f7xx_hal_conf.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_def.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc_ex.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_exti.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_gpio.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_gpio_ex.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma_ex.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_cortex.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_flash.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_flash_ex.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_i2c.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_i2c_ex.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pwr.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pwr_ex.h \
+ ../Core/Inc/stm32f7xx_it.h ../Core/Inc/main.h ../Core/Inc/dshot.h \
+ ../Core/Inc/rcc.h ../Core/Inc/dwt.h
 
-/Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Core/Inc/board.h:
+../Core/Inc/board.h:
 
-/Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h:
+../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h:
 
-/Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f722xx.h:
+../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f722xx.h:
 
-/Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Drivers/CMSIS/Include/core_cm7.h:
+../Drivers/CMSIS/Include/core_cm7.h:
 
-/Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Drivers/CMSIS/Include/cmsis_version.h:
+../Drivers/CMSIS/Include/cmsis_version.h:
 
-/Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Drivers/CMSIS/Include/cmsis_compiler.h:
+../Drivers/CMSIS/Include/cmsis_compiler.h:
 
-/Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Drivers/CMSIS/Include/cmsis_gcc.h:
+../Drivers/CMSIS/Include/cmsis_gcc.h:
 
-/Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Drivers/CMSIS/Include/mpu_armv7.h:
+../Drivers/CMSIS/Include/mpu_armv7.h:
 
-/Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Drivers/CMSIS/Device/ST/STM32F7xx/Include/system_stm32f7xx.h:
+../Drivers/CMSIS/Device/ST/STM32F7xx/Include/system_stm32f7xx.h:
 
-/Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Core/Inc/stm32f7xx_it.h:
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
 
-/Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Core/Inc/main.h:
+../Core/Inc/stm32f7xx_hal_conf.h:
 
-/Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Core/Inc/dshot.h:
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h:
 
-/Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Core/Inc/rcc.h:
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_def.h:
 
-/Users/jeremywolfe/Documents/STM32CubeIDE/DShot/Core/Inc/dwt.h:
+../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
+
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc_ex.h:
+
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_exti.h:
+
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_gpio.h:
+
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_gpio_ex.h:
+
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma.h:
+
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma_ex.h:
+
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_cortex.h:
+
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_flash.h:
+
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_flash_ex.h:
+
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_i2c.h:
+
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_i2c_ex.h:
+
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pwr.h:
+
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pwr_ex.h:
+
+../Core/Inc/stm32f7xx_it.h:
+
+../Core/Inc/main.h:
+
+../Core/Inc/dshot.h:
+
+../Core/Inc/rcc.h:
+
+../Core/Inc/dwt.h:

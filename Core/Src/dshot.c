@@ -110,8 +110,8 @@ void dshot_init(dshot_type_e dshot_type){
 	 */
 
 	// reset DMA
-	RCC->AHB1RSTR		|= RCC_AHB1RSTR_DMA1RST;
-	RCC->AHB1RSTR		&= ~RCC_AHB1RSTR_DMA1RST;
+//	RCC->AHB1RSTR		|= RCC_AHB1RSTR_DMA1RST;
+//	RCC->AHB1RSTR		&= ~RCC_AHB1RSTR_DMA1RST;
 	// disable DMA stream 5
 	DMA1_Stream2->CR 	&= ~DMA_SxCR_EN;
 	while(DMA1_Stream2->CR & DMA_SxCR_EN){}
